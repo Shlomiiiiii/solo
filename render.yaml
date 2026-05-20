@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: solo-photography-backend
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SOLO_AUTH_SECRET
+        generateValue: true

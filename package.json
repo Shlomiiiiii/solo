@@ -1,0 +1,21 @@
+{
+  "name": "solo-photography-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "express": "^5.0.1",
+    "firebase-admin": "^13.0.2",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.77.0",
+    "stripe": "^17.5.0"
+  }
+}
